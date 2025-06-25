@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #f0f0f0;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #caf8f6;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
+form textarea{
+    margin-bottom: 10px;
+}
+
+form .btn-send{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message {
+    background-color: #e387e3;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
